@@ -15,7 +15,8 @@
 ```
 
 ## removeDuplicates
-```const newArray = removeDuplicates(people, 'firstName');
+```
+const newArray = removeDuplicates(people, 'firstName');
 console.log("remaing objects: " + JSON.stringify(newArray));
 ```
 

@@ -1,9 +1,9 @@
 # useful_functions
 
-A small collection of useful method for manipulating arrays of objects.
+```A small collection of useful method for manipulating arrays of objects.```
 
 ## Example array of objects
-const people = [
+```const people = [
     { firstName: 'John', secondName: 'Smith', age: '61',  },
     { firstName: 'John', secondName: 'West', age: '55',  },
     { firstName: 'Brenda', secondName: 'Holt', age: '60',  },
@@ -12,6 +12,7 @@ const people = [
     { firstName: 'Jack', secondName: 'Carter', age: '24',  },
     { firstName: 'Jack', secondName: 'Foster', age: '58',  }
 ];
+```
 
 ## removeDuplicates
 const newArray = removeDuplicates(people, 'firstName');

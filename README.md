@@ -1,6 +1,6 @@
 # useful_functions
 
-```A small collection of useful method for manipulating arrays of objects.```
+A small collection of useful method for manipulating arrays of objects.
 
 ## Example array of objects
 ```const people = [
@@ -33,7 +33,8 @@ groupByKey(people, 'firstName')
 ```
 
 ## getValues
-```getValues(people, 'firstName');
+```
+getValues(people, 'firstName');
 ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
 ```
 

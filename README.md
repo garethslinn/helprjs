@@ -3,7 +3,8 @@
 A small collection of useful method for manipulating arrays of objects.
 
 ## Example array of objects
-```const people = [
+```
+const people = [
     { firstName: 'John', secondName: 'Smith', age: '61',  },
     { firstName: 'John', secondName: 'West', age: '55',  },
     { firstName: 'Brenda', secondName: 'Holt', age: '60',  },

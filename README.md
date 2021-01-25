@@ -15,28 +15,39 @@
 ```
 
 ## removeDuplicates
-```const newArray = removeDuplicates(people, 'firstName');
-console.log("remaing objects: " + JSON.stringify(newArray));```
+```
+const newArray = removeDuplicates(people, 'firstName');
+console.log("remaing objects: " + JSON.stringify(newArray));
+'''
 
 ## populateArray
-```Useage: populateArray(1,20,4)
-Output: [4,8,12,16,20]```
+```
+populateArray(1,20,4)
+Output: [4,8,12,16,20]
+```
 
 ## groupByKey
-```groupByKey(people, 'firstName')
-{John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}```
+```
+groupByKey(people, 'firstName')
+{John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
+```
 
 ## getValues
 ```getValues(people, 'firstName');
-["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]```
+["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
+```
 
 ## getMinimum
-```getMinimum(people,'age');
-24```
+```
+getMinimum(people,'age');
+24
+```
 
 ## getMaximum
+```
 getMaximum(people,'age');
 61
+```
 
 
 

@@ -39,6 +39,12 @@ getValues(people, 'firstName');
 ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
 ```
 
+## setAllValues
+```
+setAllValues(people, 'age', '25');
+(sets all ages to 25)
+```
+
 ## getMinimum
 ```
 getMinimum(people,'age');

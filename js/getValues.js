@@ -6,5 +6,3 @@ export function getValues(arr, key) {
         return item[key];
     });
 };
-
-getValues(people, 'firstName');

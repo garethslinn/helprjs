@@ -87,6 +87,11 @@ removeFalsy(people, 'status');
 removes all objects containing falsy values
 ```
 
+## addNewProperty
+```
+addNewProperty(people, 'registered', true)
+adds new key value to all objects
+```
 
 
 

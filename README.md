@@ -57,6 +57,17 @@ getMaximum(people,'age');
 61
 ```
 
+## emptyArray
+```
+emptyArray(people);
+[]
+```
+
+## mergeArrays
+```
+mergeArrays(people,people2); 
+use a 2nd array to merge with first array
+```
 
 
 

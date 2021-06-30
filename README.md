@@ -1,6 +1,6 @@
 # useful_functions
 
-A small collection of useful method for manipulating arrays of objects.
+A small collection of useful methods for manipulating arrays.
 
 ## Example array of objects
 ```
@@ -18,7 +18,7 @@ const people = [
 ## removeDuplicates
 ```
 const newArray = removeDuplicates(people, 'firstName');
-console.log("remaing objects: " + JSON.stringify(newArray));
+console.log("remaining objects: " + JSON.stringify(newArray));
 ```
 
 ## populateArray

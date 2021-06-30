@@ -93,6 +93,11 @@ addNewProperty(people, 'registered', true)
 adds new key value to all objects
 ```
 
+## keyToArray
+```
+keyToArray(people, 'age');
+returns array of all values for that key
+```
 
 
 

@@ -99,6 +99,12 @@ keyToArray(people, 'age');
 returns array of all values for that key
 ```
 
+## getTotal
+```
+getTotal(people, 'age');
+returns sum total
+```
+
 
 
 

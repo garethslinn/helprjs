@@ -2,5 +2,5 @@
 // 338
 
 export function getTotal(arr, key) {
-    return arr.reduce((acc, obj) => { return acc + parseInt(obj[key]); }, 0);
+    return arr.reduce((acc, currentValue) => { return acc + parseInt(currentValue[key]); }, 0);
 }

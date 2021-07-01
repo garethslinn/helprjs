@@ -105,6 +105,12 @@ getTotal(people, 'age');
 returns sum total
 ```
 
+## sortByKey
+```
+sortByKey(people, 'age');
+returns object in age order
+```
+
 
 
 

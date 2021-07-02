@@ -1,6 +1,6 @@
-# useful_functions
+# helpr
 
-A small collection of useful methods for manipulating arrays.
+A small collection of useful methods for manipulating object arrays with added helpers
 
 ## Object Arrays
 

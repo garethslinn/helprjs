@@ -120,8 +120,6 @@ sortByKey(people, 'age');
 returns object in age order
 ```
 
-countObjects(people);
-
 ### countObjects
 ```
 countObjects(people);
@@ -132,6 +130,12 @@ countObjects(people);
 ```
 countKeys({a:1, b:2, c:3})
 3
+```
+
+### randomOrder
+```
+randomOrder(people);
+returns randomly ordered array
 ```
 
 ## Helpers

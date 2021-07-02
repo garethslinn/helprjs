@@ -59,7 +59,7 @@ getMaximum(people,'age');
 61
 ```
 
-##¢ getOdd
+### getOdd
 ```
 getOdd(people,'age');
 returns objects containing only odd values

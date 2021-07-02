@@ -120,6 +120,19 @@ sortByKey(people, 'age');
 returns object in age order
 ```
 
+countObjects(people);
+
+### countObjects
+```
+countObjects(people);
+7
+```
+
+### countKeys
+```
+countKeys({a:1, b:2, c:3})
+3
+```
 
 ## Helpers
 

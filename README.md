@@ -87,7 +87,7 @@ use a 2nd array to merge with first array
 ```
 removeValue(people,'firstName', 'John');
 remove all objects that have this value
-Note: this is not case-asensitive
+Note: 1 and '1' will give a different result, be sure to include quotation marks if targetting a string
 ```
 
 ### removeFalsy

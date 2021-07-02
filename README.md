@@ -2,6 +2,8 @@
 
 A small collection of useful methods for manipulating arrays.
 
+## Object Arrays
+
 ## Example array of objects
 ```
 const people = [
@@ -45,73 +47,91 @@ setAllValues(people, 'age', '25');
 (sets all ages to 25)
 ```
 
-## getMinimum
+### getMinimum
 ```
 getMinimum(people,'age');
 24
 ```
 
-## getMaximum
+### getMaximum
 ```
 getMaximum(people,'age');
 61
 ```
 
-## getOdd
+##¢ getOdd
 ```
 getOdd(people,'age');
 returns objects containing only odd values
 ```
 
-## getEven
+### getEven
 ```
 getEven(people,'age');
 returns objects containing only even values
 ```
 
-## emptyArray
+### emptyArray
 ```
 emptyArray(people);
 []
 ```
 
-## mergeArrays
+### mergeArrays
 ```
 mergeArrays(people,people2); 
 use a 2nd array to merge with first array
 ```
 
-## removeFalsy
+### removeValue
+```
+removeValue(people,'firstName', 'John');
+remove all objects that have this value
+Note: this is not case-asensitive
+```
+
+### removeFalsy
 ```
 removeFalsy(people, 'status');
 removes all objects containing falsy values
 ```
 
-## addNewProperty
+### addNewProperty
 ```
 addNewProperty(people, 'registered', true)
 adds new key value to all objects
 ```
 
-## keyToArray
+### keyToArray
 ```
 keyToArray(people, 'age');
 returns array of all values for that key
 ```
 
-## getTotal
+### getTotal
 ```
 getTotal(people, 'age');
 returns sum total
 ```
 
-## sortByKey
+### sortByKey
 ```
 sortByKey(people, 'age');
 returns object in age order
 ```
 
 
+## Helpers
+
+### typeOf
+```
+typeOf(value);
+
+// typeOf(/^.g/); returns "regex"
+// typeOf(1); returns "number"
+// typeOf([1,2,3]); returns "array"
+// typeOf({x: 1}); returns "object"
+```
 
 
 

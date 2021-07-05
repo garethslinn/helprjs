@@ -94,12 +94,12 @@ countKeys({a:1, b:2, c:3});
 // 3
 ```
 
-#### getEven
+#### getEven - [Demo](https://codesandbox.io/s/geteven-fdv6c)
 ```
 getEven(people,'age');
 returns objects containing only even values
 ```
-[Demo](https://codesandbox.io/s/geteven-fdv6c)
+
 
 #### getMaximum
 ```

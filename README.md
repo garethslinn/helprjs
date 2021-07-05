@@ -1,4 +1,4 @@
-# helpr
+# helprjs
 
 Easy to use collection of useful methods for manipulating object arrays with added helpers
 

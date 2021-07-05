@@ -1,7 +1,7 @@
 // emptyArray(people);
 // []
 
-export function emptyArrray(arr) {
+export function emptyArray(arr) {
     return arr = [];
 }
 

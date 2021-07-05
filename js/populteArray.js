@@ -1,4 +1,4 @@
-// Useage: populateArray(1,20,4)
+// Useage: populateArray(0,20,4)
 // Output: [4,8,12,16,20]
 
 export function populateArray(min, max, incriment){

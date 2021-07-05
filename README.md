@@ -84,47 +84,16 @@ Numerical : uses numerical data
 
 ## General
 
-#### removeDuplicates
+#### addNewProperty
 ```
-const newArray = removeDuplicates(people, 'id');
-console.log("remaining objects: " + JSON.stringify(newArray));
-```
-
-
-#### groupByKey
-```
-groupByKey(people, 'firstName')
-{John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
+addNewProperty(people, 'registered', true)
+adds new key value to all objects
 ```
 
-#### getValues
+#### countKeys
 ```
-getValues(people, 'firstName');
-["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
-```
-
-#### setAllValues
-```
-setAllValues(people, 'age', '25');
-(sets all ages to 25)
-```
-
-#### getMinimum
-```
-getMinimum(people,'age');
-24
-```
-
-#### getMaximum
-```
-getMaximum(people,'age');
-61
-```
-
-#### getOdd
-```
-getOdd(people,'age');
-returns objects containing only odd values
+countKeys({a:1, b:2, c:3});
+// 3
 ```
 
 #### getEven
@@ -133,16 +102,58 @@ getEven(people,'age');
 returns objects containing only even values
 ```
 
-#### emptyArray
+#### getMaximum
 ```
-emptyArray(people);
-[]
+getMaximum(people,'age');
+// 61
+```
+
+#### getMinimum
+```
+getMinimum(people,'age');
+// 24
+```
+
+#### getOdd
+```
+getOdd(people,'age');
+returns objects containing only odd values
+```
+
+#### getTotal
+```
+getTotal(people, 'age');
+returns sum total
+```
+
+#### getValues
+```
+getValues(people, 'firstName');
+// ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
+```
+
+#### groupByKey
+```
+groupByKey(people, 'firstName')
+// {John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
 ```
 
 #### mergeArrays
 ```
 mergeArrays(people,people2); 
 use a 2nd array to merge with first array
+```
+
+#### randomOrder
+```
+randomOrder(people);
+returns randomly ordered array
+```
+
+#### removeFalsy
+```
+removeFalsy(people, 'status');
+removes all objects containing falsy values
 ```
 
 #### removeValue
@@ -152,28 +163,10 @@ remove all objects that have this value
 Note: 1 and '1' will give a different result, be sure to include quotation marks if targetting a string
 ```
 
-#### removeFalsy
+#### setAllValues
 ```
-removeFalsy(people, 'status');
-removes all objects containing falsy values
-```
-
-#### addNewProperty
-```
-addNewProperty(people, 'registered', true)
-adds new key value to all objects
-```
-
-#### keyToArray
-```
-keyToArray(people, 'age');
-returns array of all values for that key
-```
-
-#### getTotal
-```
-getTotal(people, 'age');
-returns sum total
+setAllValues(people, 'age', '25');
+(sets all ages to 25)
 ```
 
 #### sortByKey
@@ -182,64 +175,72 @@ sortByKey(people, 'age');
 returns object in age order
 ```
 
-#### countObjects
-```
-countObjects(people);
-7
-```
-
-#### countKeys
-```
-countKeys({a:1, b:2, c:3})
-3
-```
-
-#### randomOrder
-```
-randomOrder(people);
-returns randomly ordered array
-```
-
 ## Array
 
 #### populateArray
 ```
-populateArray(1,20,4)
+populateArray(0,20,4)
 Output: [4,8,12,16,20]
 ```
 
 ## Boolean
 
+#### isArray
 ```
 isArray([1,2,3]);
 // true
+```
 
+#### isBigint
+```
 isBigint(9007199254740991n);
 // true
+```
 
+#### isBoolean
+```
 isBoolean(true);
 // true
+```
 
-
-isNaN(NaN);
+#### isNaN
+```
+isNaN(true);
 // true
+```
 
+#### isNull
+```
 isNull(null);
 // true
+```
 
-
+#### isNumber
+```
 isNumber(1);
 // true
+```
 
+#### isObject
+```
 isObject({x:1, y:2});
 // true
+```
 
+#### isString
+```
 isString('abc'});
 // true
+```
 
+#### isSymbol
+```
 isSymbol(Symbol());
 // true
+```
 
+#### isUndefined
+```
 isUndefined(undefined);
 // true
 ```

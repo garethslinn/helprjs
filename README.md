@@ -181,6 +181,19 @@ populateArray(0,20,4)
 Output: [4,8,12,16,20]
 ```
 
+#### uniqueArray
+```
+uniqueArray(["one",1,1,2,3,"two","three","four","one","two"])
+Output: ["one", 1, 2, 3, "two", "three", "four"]
+```
+
+#### intersectArrays
+```
+intersectArrays([0,1,2,3,4],[0,1,2,5,6])
+Output: [0,1,2]
+```
+
+
 ## Boolean
 
 #### isArray

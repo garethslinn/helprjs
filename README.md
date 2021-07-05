@@ -201,7 +201,7 @@ isUndefined(undefined);
 
 ## Helpers
 
-## typeOf
+#### typeOf
 ```
 typeOf(value);
 

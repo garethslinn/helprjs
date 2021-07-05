@@ -205,7 +205,6 @@ isUndefined(undefined);
 ```
 typeOf(value);
 
-// typeOf(/^.g/); returns "regex"
 // typeOf(1); returns "number"
 // typeOf([1,2,3]); returns "array"
 // typeOf({x: 1}); returns "object"

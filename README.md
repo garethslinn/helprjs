@@ -22,6 +22,51 @@ const people = [
 ];
 ```
 
+## Example of use - React example
+```
+import { getEven } from 'helprjs';
+
+function App() {
+
+  const people = [
+    { id: 1, firstName: 'John', secondName: 'Smith', age: '61', status: 1 },
+    { id: 2, firstName: 'John', secondName: 'West', age: '55', status: true },
+    { id: 3, firstName: 'Brenda', secondName: 'Holt', age: '60', status: false },
+    { id: 4, firstName: 'Sally', secondName: 'Brampton', age: '33', status: undefined },
+    { id: 5, firstName: 'June', secondName: 'Chester', age: '47', status: NaN },
+    { id: 6, firstName: 'Jack', secondName: 'Carter', age: '24', status: null },
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
+  ];
+
+  const result = getEven(people,'age');
+
+  return (
+    <div className="App">
+      <h1>Users with an even age</h1>
+      <table>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Second Name</th>
+          <th scope="col">Age</th>
+        </tr>
+      {result && result.map((item, index) =>
+          <tr key={index}>
+            <td>{item.firstName}</td>
+            <td>{item.secondName}</td>
+            <td>{item.age}</td>
+          </tr>)
+      }
+      </table>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
 ## Methods
 
 Methods can be grouped into the following categories: 

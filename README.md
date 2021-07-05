@@ -2,9 +2,12 @@
 
 A small collection of useful methods for manipulating object arrays with added helpers
 
-## Object Arrays
+
 
 ## Example array of objects
+
+Most of the examples here make use of this people object.  
+
 ```
 const people = [
     { id: 1, firstName: 'John', secondName: 'Smith', age: '61', status: 1 },
@@ -13,35 +16,49 @@ const people = [
     { id: 4, firstName: 'Sally', secondName: 'Brampton', age: '33', status: undefined },
     { id: 5, firstName: 'June', secondName: 'Chester', age: '47', status: NaN },
     { id: 6, firstName: 'Jack', secondName: 'Carter', age: '24', status: null },
-    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 }
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
+    { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
 ];
 ```
 
-## removeDuplicates
+## Methods
+
+Methods can be grouped into the following categories: 
+
+General : object array manipulation 
+
+Array: array only
+
+Boolean : returns true or false
+
+Helpers : deals with values
+
+Numerical : uses numerical data
+
+
+## General
+
+### removeDuplicates
 ```
-const newArray = removeDuplicates(people, 'firstName');
+const newArray = removeDuplicates(people, 'id');
 console.log("remaining objects: " + JSON.stringify(newArray));
 ```
 
-## populateArray
-```
-populateArray(1,20,4)
-Output: [4,8,12,16,20]
-```
 
-## groupByKey
+### groupByKey
 ```
 groupByKey(people, 'firstName')
 {John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
 ```
 
-## getValues
+### getValues
 ```
 getValues(people, 'firstName');
 ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
 ```
 
-## setAllValues
+### setAllValues
 ```
 setAllValues(people, 'age', '25');
 (sets all ages to 25)
@@ -138,9 +155,53 @@ randomOrder(people);
 returns randomly ordered array
 ```
 
+## Array
+
+### populateArray
+```
+populateArray(1,20,4)
+Output: [4,8,12,16,20]
+```
+
+## Boolean
+
+```
+isArray([1,2,3]);
+// true
+
+isBigint(9007199254740991n);
+// true
+
+isBoolean(true);
+// true
+
+
+isNaN(NaN);
+// true
+
+isNull(null);
+// true
+
+
+isNumber(1);
+// true
+
+isObject({x:1, y:2});
+// true
+
+isString('abc'});
+// true
+
+isSymbol(Symbol());
+// true
+
+isUndefined(undefined);
+// true
+```
+
 ## Helpers
 
-### typeOf
+## typeOf
 ```
 typeOf(value);
 
@@ -149,6 +210,3 @@ typeOf(value);
 // typeOf([1,2,3]); returns "array"
 // typeOf({x: 1}); returns "object"
 ```
-
-
-

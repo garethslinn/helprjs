@@ -1,8 +1,6 @@
 # helpr
 
-A small collection of useful methods for manipulating object arrays with added helpers
-
-
+Easy to use collection of useful methods for manipulating object arrays with added helpers
 
 ## Example array of objects
 

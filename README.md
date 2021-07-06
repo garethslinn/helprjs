@@ -189,6 +189,12 @@ toTruncate(people, 'firstName', 3);
 returns object with values truncated to numerical value
 ```
 
+#### toNumber
+```
+toNumber(people, 'age');
+returns object with values as numbers
+```
+
 ## Array
 
 #### populateArray
@@ -314,8 +320,3 @@ getTotal(people, 'age');
 returns sum total
 ```
 
-#### toNumber
-```
-toNumber(people, 'age');
-returns object with values as numbers
-```

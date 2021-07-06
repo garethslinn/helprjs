@@ -262,7 +262,7 @@ isBoolean(true);
 
 #### isNaN
 ```
-isNaN(true);
+isNaN(NaN);
 // true
 ```
 

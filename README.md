@@ -100,7 +100,7 @@ getEven(people,'age');
 returns objects containing only even values
 ```
 
-#### getObject
+#### getObject - [Demo](https://codesandbox.io/s/suspicious-tu-859vt)
 ```
 getObject(people,2);
 returns an object from an array from array key
@@ -134,32 +134,32 @@ groupByKey(people, 'firstName')
 
 [comment]: <> (```)
 
-#### randomOrder
+#### randomOrder - [Demo](https://codesandbox.io/s/randomorder-9mc74)
 ```
 randomOrder(people);
 returns randomly ordered array
 ```
 
-#### removeFalsy
+#### removeFalsy - [Demo](https://codesandbox.io/s/removefalsy-y05sr)
 ```
 removeFalsy(people, 'status');
 removes all objects containing falsy values
 ```
 
-#### removeValue
+#### removeValue - [Demo](https://codesandbox.io/s/removevalue-2uynr)
 ```
 removeValue(people,'firstName', 'John');
 remove all objects that have this value
 Note: 1 and '1' will give a different result, be sure to include quotation marks if targetting a string
 ```
 
-#### setAllValues
+#### setAllValues - [Demo](https://codesandbox.io/s/setallvalues-b61xe)
 ```
 setAllValues(people, 'age', '25');
 (sets all values to 25)
 ```
 
-#### sortByKey
+#### sortByKey- [Demo](https://codesandbox.io/s/ortbykey-3js9v)
 ```
 sortByKey(people, 'age');
 returns object in value order

@@ -168,13 +168,49 @@ Note: 1 and '1' will give a different result, be sure to include quotation marks
 #### setAllValues
 ```
 setAllValues(people, 'age', '25');
-(sets all ages to 25)
+(sets all values to 25)
 ```
 
 #### sortByKey
 ```
 sortByKey(people, 'age');
-returns object in age order
+returns object in value order
+```
+
+#### toArray
+```
+toArray(people, 'age');
+// ["61","55","60","33","47","24","58"]
+```
+
+#### toLower
+```
+toLower(people, 'firstname');
+returns object with values as lowercase
+```
+
+#### toUpper
+```
+toUpper(people, 'firstname');
+returns object with values as uppercase
+```
+
+#### toNumber
+```
+toNumber(people, 'age');
+returns object with values as numbers
+```
+
+#### toString
+```
+toString(people, 'id');
+returns object with values as a string
+```
+
+#### toTruncate
+```
+toTruncate(people, 'firstName', 3);
+returns object with values truncated to numerical value
 ```
 
 ## Array

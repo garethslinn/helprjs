@@ -82,13 +82,13 @@ Numerical : uses numerical data
 
 ## General
 
-#### addNewProperty
+#### addNewProperty - [Demo](https://codesandbox.io/s/addnewproperty-y3ch8)
 ```
 addNewProperty(people, 'registered', true)
 adds new key value to all objects
 ```
 
-#### countKeys
+#### countKeys - [Demo](https://codesandbox.io/s/countkeys-oojbt)
 ```
 countKeys({a:1, b:2, c:3});
 // 3
@@ -100,26 +100,25 @@ getEven(people,'age');
 returns objects containing only even values
 ```
 
-
-#### getMaximum
+#### getMaximum - [Demo](https://codesandbox.io/s/getmaximum-swhbw)
 ```
 getMaximum(people,'age');
 // 61
 ```
 
-#### getMinimum
+#### getMinimum - [Demo](https://codesandbox.io/s/getminimum-2fn0k)
 ```
 getMinimum(people,'age');
 // 24
 ```
 
-#### getOdd
+#### getOdd - [Demo](https://codesandbox.io/s/getodd-lsj78)
 ```
 getOdd(people,'age');
 returns objects containing only odd values
 ```
 
-#### getTotal
+#### getTotal - [Demo](https://codesandbox.io/s/gettotal-tlu96)
 ```
 getTotal(people, 'age');
 returns sum total
@@ -137,38 +136,42 @@ groupByKey(people, 'firstName')
 // {John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
 ```
 
-#### mergeArrays
-```
-mergeArrays(people,people2); 
-use a 2nd array to merge with first array
-```
+[comment]: <> (#### mergeArrays)
 
-#### randomOrder
+[comment]: <> (```)
+
+[comment]: <> (mergeArrays&#40;people,people2&#41;; )
+
+[comment]: <> (use a 2nd array to merge with first array)
+
+[comment]: <> (```)
+
+#### randomOrder - [Demo]()
 ```
 randomOrder(people);
 returns randomly ordered array
 ```
 
-#### removeFalsy
+#### removeFalsy - [Demo]()
 ```
 removeFalsy(people, 'status');
 removes all objects containing falsy values
 ```
 
-#### removeValue
+#### removeValue - [Demo]()
 ```
 removeValue(people,'firstName', 'John');
 remove all objects that have this value
 Note: 1 and '1' will give a different result, be sure to include quotation marks if targetting a string
 ```
 
-#### setAllValues
+#### setAllValues - [Demo]()
 ```
 setAllValues(people, 'age', '25');
 (sets all ages to 25)
 ```
 
-#### sortByKey
+#### sortByKey - [Demo]()
 ```
 sortByKey(people, 'age');
 returns object in age order

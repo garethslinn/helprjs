@@ -306,6 +306,15 @@ typeOf(value);
 // typeOf({x: 1}); returns "object"
 ```
 
+#### uuid
+```
+uuid();
+
+// Random ID generator
+// uuid(); returns random id
+// e.g. 8ac16a9e-12fc-44fd-8311-952d212cbe02
+```
+
 ## Numerical 
 
 #### getMaximum - [Demo](https://codesandbox.io/s/getmaximum-swhbw)

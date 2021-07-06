@@ -100,28 +100,10 @@ getEven(people,'age');
 returns objects containing only even values
 ```
 
-#### getMaximum - [Demo](https://codesandbox.io/s/getmaximum-swhbw)
-```
-getMaximum(people,'age');
-// 61
-```
-
-#### getMinimum - [Demo](https://codesandbox.io/s/getminimum-2fn0k)
-```
-getMinimum(people,'age');
-// 24
-```
-
 #### getOdd - [Demo](https://codesandbox.io/s/getodd-lsj78)
 ```
 getOdd(people,'age');
 returns objects containing only odd values
-```
-
-#### getTotal - [Demo](https://codesandbox.io/s/gettotal-tlu96)
-```
-getTotal(people, 'age');
-returns sum total
 ```
 
 #### getValues
@@ -195,12 +177,6 @@ toUpper(people, 'firstname');
 returns object with values as uppercase
 ```
 
-#### toNumber
-```
-toNumber(people, 'age');
-returns object with values as numbers
-```
-
 #### toString
 ```
 toString(people, 'id');
@@ -244,7 +220,6 @@ emptyArray(["one","two","three","four"])
 reverseArray([0,1,2,3,4,5,6])
 // [6,5,4,3,2,1,0]
 ```
-
 
 ## Boolean
 
@@ -317,4 +292,30 @@ typeOf(value);
 // typeOf(1); returns "number"
 // typeOf([1,2,3]); returns "array"
 // typeOf({x: 1}); returns "object"
+```
+
+## Numerical 
+
+#### getMaximum - [Demo](https://codesandbox.io/s/getmaximum-swhbw)
+```
+getMaximum(people,'age');
+// 61
+```
+
+#### getMinimum - [Demo](https://codesandbox.io/s/getminimum-2fn0k)
+```
+getMinimum(people,'age');
+// 24
+```
+
+#### getTotal - [Demo](https://codesandbox.io/s/gettotal-tlu96)
+```
+getTotal(people, 'age');
+returns sum total
+```
+
+#### toNumber
+```
+toNumber(people, 'age');
+returns object with values as numbers
 ```

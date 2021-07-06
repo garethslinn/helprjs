@@ -100,6 +100,12 @@ getEven(people,'age');
 returns objects containing only even values
 ```
 
+#### getObject
+```
+getObject(people,2);
+returns an object from an array from array key
+```
+
 #### getOdd - [Demo](https://codesandbox.io/s/getodd-lsj78)
 ```
 getOdd(people,'age');

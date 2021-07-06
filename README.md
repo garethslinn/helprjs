@@ -146,32 +146,32 @@ groupByKey(people, 'firstName')
 
 [comment]: <> (```)
 
-#### randomOrder - [Demo]()
+#### randomOrder
 ```
 randomOrder(people);
 returns randomly ordered array
 ```
 
-#### removeFalsy - [Demo]()
+#### removeFalsy
 ```
 removeFalsy(people, 'status');
 removes all objects containing falsy values
 ```
 
-#### removeValue - [Demo]()
+#### removeValue
 ```
 removeValue(people,'firstName', 'John');
 remove all objects that have this value
 Note: 1 and '1' will give a different result, be sure to include quotation marks if targetting a string
 ```
 
-#### setAllValues - [Demo]()
+#### setAllValues
 ```
 setAllValues(people, 'age', '25');
 (sets all ages to 25)
 ```
 
-#### sortByKey - [Demo]()
+#### sortByKey
 ```
 sortByKey(people, 'age');
 returns object in age order

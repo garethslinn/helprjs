@@ -1,5 +1,5 @@
 // randomOrder(people);
-// returns randomly ordered array
+// returns randomly ordered object array
 
 export function randomOrder(_arr) {
    let arr = _arr;

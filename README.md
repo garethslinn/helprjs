@@ -159,7 +159,7 @@ setAllValues(people, 'age', '25');
 (sets all values to 25)
 ```
 
-#### sortByKey- [Demo](https://codesandbox.io/s/ortbykey-3js9v)
+#### sortByKey - [Demo](https://codesandbox.io/s/ortbykey-3js9v)
 ```
 sortByKey(people, 'age');
 returns object in value order
@@ -171,15 +171,15 @@ toArray(people, 'age');
 // ["61","55","60","33","47","24","58"]
 ```
 
-#### toLower
+#### toLower - [Demo](https://codesandbox.io/s/tolower-8wu14?file=/src/App.js)
 ```
-toLower(people, 'firstname');
+toLower(people, 'firstName');
 returns object with values as lowercase
 ```
 
-#### toUpper
+#### toUpper - [Demo](https://codesandbox.io/s/toupper-35cel?file=/src/App.js)
 ```
-toUpper(people, 'firstname');
+toUpper(people, 'firstName');
 returns object with values as uppercase
 ```
 

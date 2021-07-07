@@ -87,7 +87,7 @@ Vailidation : returns only objects that meet the valid criteria
 #### addNewProperty - [Demo](https://codesandbox.io/s/addnewproperty-y3ch8)
 ```
 addNewProperty(people, 'registered', true)
-adds new key value to all objects
+adds new key/value to all objects.
 ```
 
 #### countKeys - [Demo](https://codesandbox.io/s/countkeys-oojbt)

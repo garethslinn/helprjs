@@ -1,6 +1,6 @@
 {
   "name": "helprjs",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "array helper library",
   "main": "dist/index.js",
   "devDependencies": {
@@ -24,7 +24,15 @@
   "keywords": [
     "array",
     "object",
-    "library"
+    "library",
+    "underscore",
+    "sort",
+    "group",
+    "reverse",
+    "split",
+    "itterate",
+    "merge",
+    "data manipulation"
   ],
   "author": "G.D.Slinn",
   "license": "ISC",

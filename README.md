@@ -20,7 +20,7 @@ const people = [
 ];
 ```
 
-## Example of use - React example
+## Example of use - React example - [Demo](https://codesandbox.io/s/geteven-fdv6c)
 ```
 import { getEven } from 'helprjs';
 

@@ -118,7 +118,7 @@ getValues(people, 'firstName');
 // ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
 ```
 
-#### groupByKey
+#### groupByKey - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
 ```
 groupByKey(people, 'firstName')
 // {John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}

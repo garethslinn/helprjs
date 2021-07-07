@@ -112,7 +112,7 @@ getOdd(people,'age');
 returns objects containing only odd values
 ```
 
-#### getValues
+#### getValues - [Demo](https://codesandbox.io/s/getvalues-34vg2?file=/src/App.js)
 ```
 getValues(people, 'firstName');
 // ["John", "John", "Brenda", "Sally", "June", "Jack", "Jack"]
@@ -165,7 +165,7 @@ sortByKey(people, 'age');
 returns object in value order
 ```
 
-#### toArray
+#### toArray - [Demo](https://codesandbox.io/s/toarray-n67wv?file=/src/App.js)
 ```
 toArray(people, 'age');
 // ["61","55","60","33","47","24","58"]
@@ -183,19 +183,19 @@ toUpper(people, 'firstName');
 returns object with values as uppercase
 ```
 
-#### toString
+#### toString - [Demo](https://codesandbox.io/s/tostring-q4jhu)
 ```
 toString(people, 'id');
 returns object with values as a string
 ```
 
-#### toTruncate
+#### toTruncate - [Demo](https://codesandbox.io/s/totruncate-34fcb?file=/src/App.js)
 ```
 toTruncate(people, 'firstName', 3);
 returns object with values truncated to numerical value
 ```
 
-#### toNumber
+#### toNumber - [Demo](https://codesandbox.io/s/tonumber-i0kr7?file=/src/App.js)
 ```
 toNumber(people, 'age');
 returns object with values as numbers
@@ -203,37 +203,37 @@ returns object with values as numbers
 
 ## Array
 
-#### populateArray
+#### populateArray - [Demo](https://codesandbox.io/s/populatearray-suvdi?file=/src/App.js)
 ```
 populateArray(0,20,4)
 // [4,8,12,16,20]
 ```
 
-#### uniqueArray
+#### uniqueArray - [Demo](https://codesandbox.io/s/uniquearray-2uoe1?file=/src/App.js)
 ```
 uniqueArray(["one",1,1,2,3,"two","three","four","one","two"])
 // ["one", 1, 2, 3, "two", "three", "four"]
 ```
 
-#### intersectArrays
+#### intersectArrays - [Demo](https://codesandbox.io/s/intersectarrays-gzcf7?file=/src/App.js)
 ```
 intersectArrays([0,1,2,3,4],[0,1,2,5,6])
 // [0,1,2]
 ```
 
-#### emptyArray
+#### emptyArray - [Demo](https://codesandbox.io/s/emptyarray-4hgb1?file=/src/App.js)
 ```
 emptyArray(["one","two","three","four"])
 // []
 ```
 
-#### reverseArray
+#### reverseArray - [Demo](https://codesandbox.io/s/reversearray-6hvt4?file=/src/App.js)
 ```
 reverseArray([0,1,2,3,4,5,6])
 // [6,5,4,3,2,1,0]
 ```
 
-#### shuffleArray
+#### shuffleArray - [Demo](https://codesandbox.io/s/shufflearray-qq4yy?file=/src/App.js)
 ```
 shuffleArray([0,1,2,3,4,5,6])
 // [4,0,1,6,5,3,2]
@@ -242,61 +242,61 @@ shuffleArray([0,1,2,3,4,5,6])
 
 ## Boolean
 
-#### isArray
+#### isArray - [Demo](https://codesandbox.io/s/isarray-8k28g?file=/src/App.js:0-222)
 ```
 isArray([1,2,3]);
 // true
 ```
 
-#### isBigint
+#### isBigint - [Demo](https://codesandbox.io/s/isbigint-s5f4d?file=/src/App.js)
 ```
 isBigint(9007199254740991n);
 // true
 ```
 
-#### isBoolean
+#### isBoolean - [Demo](https://codesandbox.io/s/isboolean-53rq4?file=/src/App.js)
 ```
 isBoolean(true);
 // true
 ```
 
-#### isNaN
+#### isNaN - [Demo](https://codesandbox.io/s/isnan-e6xfc?file=/src/App.js)
 ```
 isNaN(NaN);
 // true
 ```
 
-#### isNull
+#### isNull - [Demo](https://codesandbox.io/s/isnull-7l5ds?file=/src/App.js)
 ```
 isNull(null);
 // true
 ```
 
-#### isNumber
+#### isNumber - [Demo](https://codesandbox.io/s/isnumber-nz40w?file=/src/App.js)
 ```
 isNumber(1);
 // true
 ```
 
-#### isObject
+#### isObject - [Demo](https://codesandbox.io/s/isnumber-nz40w?file=/src/App.js)
 ```
 isObject({x:1, y:2});
 // true
 ```
 
-#### isString
+#### isString - [Demo](https://codesandbox.io/s/isstring-0prvt?file=/src/App.js)
 ```
 isString('abc'});
 // true
 ```
 
-#### isSymbol
+#### isSymbol - [Demo](https://codesandbox.io/s/issymbol-z8cti?file=/src/App.js)
 ```
 isSymbol(Symbol());
 // true
 ```
 
-#### isUndefined
+#### isUndefined - [Demo](https://codesandbox.io/s/isundefined-88xpm?file=/src/App.js)
 ```
 isUndefined(undefined);
 // true
@@ -304,7 +304,7 @@ isUndefined(undefined);
 
 ## Helpers
 
-#### typeOf
+#### typeOf - [Demo](https://codesandbox.io/s/typeof-uuuc9?file=/src/App.js)
 ```
 typeOf(value);
 
@@ -313,7 +313,7 @@ typeOf(value);
 // typeOf({x: 1}); returns "object"
 ```
 
-#### uuid
+#### uuid - [Demo](https://codesandbox.io/s/uuid-1j8jx?file=/src/App.js)
 ```
 uuid();
 
@@ -322,7 +322,7 @@ uuid();
 // e.g. 8ac16a9e-12fc-44fd-8311-952d212cbe02
 ```
 
-#### randomId
+#### randomId - [Demo](https://codesandbox.io/s/randomid-jgznb?file=/src/App.js)
 ```
 randomId();
 

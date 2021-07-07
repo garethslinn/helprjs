@@ -79,6 +79,8 @@ Helpers : deals with values
 
 Numerical : uses numerical data
 
+Vailidation : returns only objects that meet the valid criteria
+
 
 ## General
 
@@ -350,3 +352,18 @@ getTotal(people, 'age');
 returns sum total
 ```
 
+## Validation
+
+#### getValidEmail 
+```
+getValidEmail( [{ id: 1, email: 'badEmailDotgmail.com'  },{ id: 2, email: 'test@gmail.com'  }] ,'email');
+[{ email: 'test@gmail.com  }]
+returns only objects containing valid email addresses 
+```
+
+#### getValidString
+```
+getValidString(people, 'firstName', 5, 99)
+//Note: (array, key, minimumLength, maximumLength)
+returns only objects containing text within min and max length
+```

@@ -142,6 +142,12 @@ randomOrder(people);
 returns randomly ordered array
 ```
 
+#### removeDuplicates  - [Demo](https://codesandbox.io/s/removeduplicates-do4oe?file=/src/App.js)
+```
+removeDuplicates(people, 'firstName');
+removes all objects containing duplicates values
+```
+
 #### removeFalsy - [Demo](https://codesandbox.io/s/removefalsy-y05sr)
 ```
 removeFalsy(people, 'status');
@@ -366,4 +372,12 @@ returns only objects containing valid email addresses
 getValidString(people, 'firstName', 5, 99)
 //Note: (array, key, minimumLength, maximumLength)
 returns only objects containing text within min and max length
+```
+
+## Combination - [Demo](https://codesandbox.io/s/combination-2use4)
+
+```
+In this example five methods have been used to generate a desired output.  The example
+is overengineered and an unlikely requirement however it demonstrates more possibilities 
+when using helprjs.  
 ```

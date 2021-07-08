@@ -377,7 +377,7 @@ returns only objects containing text within min and max length
 ## Combination - [Demo](https://codesandbox.io/s/combination-2use4)
 
 ```
-In this example five methods have been used to generate a desired output.  The example
-It is overengineered and an unlikely requirement however it demonstrates more possibilities 
-when using helprjs.  
+In this example five methods have been used to generate a desired output.  
+It is overengineered and an unlikely requirement however it demonstrates 
+more possibilities when using helprjs.  
 ```

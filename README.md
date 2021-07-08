@@ -378,6 +378,6 @@ returns only objects containing text within min and max length
 
 ```
 In this example five methods have been used to generate a desired output.  The example
-is overengineered and an unlikely requirement however it demonstrates more possibilities 
+It is overengineered and an unlikely requirement however it demonstrates more possibilities 
 when using helprjs.  
 ```

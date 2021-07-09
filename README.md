@@ -209,6 +209,14 @@ toNumber(people, 'age');
 returns object with values as numbers
 ```
 
+#### toTrim - [Demo](https://codesandbox.io/s/totrim-hdtfu?file=/src/App.js)
+```
+toTrim(people, 'firstName');
+returns object values with whitespace removed
+```
+
+
+
 ## Array
 
 #### populateArray - [Demo](https://codesandbox.io/s/populatearray-suvdi?file=/src/App.js)

@@ -126,15 +126,14 @@ groupByKey(people, 'firstName')
 // {John: Array(2), Brenda: Array(1), Sally: Array(1), June: Array(1), Jack: Array(2)}
 ```
 
-[comment]: <> (#### mergeArrays)
+#### mergeArrays - [Demo](https://codesandbox.io/s/mergearrays-p130j?file=/src/App.js)
 
-[comment]: <> (```)
+```
 
-[comment]: <> (mergeArrays&#40;people,people2&#41;; )
+mergeArrays(arr1,arr2,key); 
+returns a merged array without duplicated keys
 
-[comment]: <> (use a 2nd array to merge with first array)
-
-[comment]: <> (```)
+```
 
 #### randomOrder - [Demo](https://codesandbox.io/s/randomorder-9mc74)
 ```

@@ -1,6 +1,7 @@
-// mergeArrays(people,people2);
+// mergeArrays(people,people2,key);
 
-export function mergeArrays(arr1, arr2) {
-   return [arr1, arr2].reduce((a, b) => a.map((c, i) => Object.assign({}, c, b[i])));
+export function mergeArrays(arr1, arr2, key) {
+   const arr = [...arr1, ...arr2]; // add both arrays
+   return [...new Map(arr.map((item) => [item[key], item])).values()]; // remove duplicates
 }
 

@@ -1,3 +1,5 @@
+
+
 export const people = [
     { id: 1, firstName: 'John', secondName: 'Smith', age: '61', status: 1 },
     { id: 2, firstName: 'John', secondName: 'West', age: '55', status: true },

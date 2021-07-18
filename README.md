@@ -319,6 +319,15 @@ isUndefined(undefined);
 
 ## Helpers
 
+#### percentage - [Demo]()
+```
+percentage(partial, total)
+
+// percentage(50, 200)
+// 25
+// calculate percentage of partial against total number
+```
+
 #### typeOf - [Demo](https://codesandbox.io/s/typeof-uuuc9?file=/src/App.js)
 ```
 typeOf(value);

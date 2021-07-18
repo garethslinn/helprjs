@@ -319,7 +319,7 @@ isUndefined(undefined);
 
 ## Helpers
 
-#### percentage - [Demo]()
+#### percentage - [Demo](https://codesandbox.io/s/percentage-rh65d?file=/src/App.js)
 ```
 percentage(partial, total)
 

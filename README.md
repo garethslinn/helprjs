@@ -1,6 +1,6 @@
 # helprjs
 
-Easy to use collection of useful methods for manipulating object arrays with added helpers
+This is an EASY TO USE collection of useful methods for manipulating object arrays with added helpers
 
 ## Example array of objects
 

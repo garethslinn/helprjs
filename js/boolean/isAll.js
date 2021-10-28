@@ -1,4 +1,4 @@
-// isAll(people,'age');
+// isAll(people,'age',fnc);
 // do all values match the criteria?
 
 export function isAll(arr, key, fnc) {

@@ -141,6 +141,12 @@ randomOrder(people);
 returns randomly ordered array
 ```
 
+#### refine - [Demo](https://codesandbox.io/s/refine-fdv6c?file=/src/App.js)
+```
+const result = refine(people, "firstName", "Jack");
+// return only objects that match criteria
+```
+
 #### removeDuplicates  - [Demo](https://codesandbox.io/s/removeduplicates-do4oe?file=/src/App.js)
 ```
 removeDuplicates(people, 'firstName');

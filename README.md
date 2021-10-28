@@ -257,6 +257,16 @@ shuffleArray([0,1,2,3,4,5,6])
 
 ## Boolean
 
+#### isAll - Demo not available
+```
+pass in object array, key and function. 
+
+const isBelow = (currentValue) => currentValue < 99;
+const result = isAll(people, 'age', isBelow)
+console.log('result', result)
+// true
+```
+
 #### isArray - [Demo](https://codesandbox.io/s/isarray-8k28g?file=/src/App.js:0-222)
 ```
 isArray([1,2,3]);

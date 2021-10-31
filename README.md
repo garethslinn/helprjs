@@ -174,8 +174,9 @@ setAllValues(people, 'age', '25');
 
 #### sortByKey - [Demo](https://codesandbox.io/s/ortbykey-3js9v)
 ```
-sortByKey(people, 'age');
+sortByKey(people, 'age', 'desc');
 returns object in value order
+Note, 3rd paramenter is optional.  desc = decending order.
 ```
 
 #### toArray - [Demo](https://codesandbox.io/s/toarray-n67wv?file=/src/App.js)

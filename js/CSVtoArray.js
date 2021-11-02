@@ -1,7 +1,7 @@
 // CSVtoArray(csvfile');
 
 export const CSVtoArray = (csvfile) => {
-    const lines = csv.split("\n");
+    const lines = csvfile.split("\n");
     const titles = lines[0].split(" ");
     const data = new Array(lines.length - 1);
 

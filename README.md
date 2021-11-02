@@ -96,7 +96,7 @@ countKeys({a:1, b:2, c:3});
 // 3
 ```
 
-#### CSVtoArray - [Demo](https://codesandbox.io/s/csvtoarray-o2mqw?file=/src/App.js)
+#### CSVtoArray - [Demo](https://codesandbox.io/s/csvto-skj8q?file=/src/App.js)
 ```
 CSVtoArray(csvfile');
 // [ {...} {...} ]

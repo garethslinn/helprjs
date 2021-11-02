@@ -20,7 +20,7 @@ const people = [
 ];
 ```
 
-## Example of use - React example - [Demo](https://codesandbox.io/s/geteven-fdv6c)
+## Example of use - React example - [Demo](https://codesandbox.io/s/getodd-lsj78)
 ```
 import { getEven } from 'helprjs';
 
@@ -38,7 +38,7 @@ function App() {
     { id: 7, firstName: 'Jack', secondName: 'Foster', age: '58', status: 0 },
   ];
 
-  const result = getEven(people,'age');
+  const result = getOdd(people,'age');
 
   return (
     <div className="App">
@@ -94,6 +94,12 @@ adds new key/value to all objects.
 ```
 countKeys({a:1, b:2, c:3});
 // 3
+```
+
+#### CSVtoArray - [Demo](https://codesandbox.io/s/csvtoarray-o2mqw?file=/src/App.js)
+```
+CSVtoArray(csvfile');
+// [ {...} {...} ]
 ```
 
 #### getEven - [Demo](https://codesandbox.io/s/geteven-fdv6c)

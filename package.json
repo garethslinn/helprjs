@@ -6,13 +6,14 @@
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-babel": "^6.1.30",
+    "@types/gulp-concat": "^0.0.33",
+    "@types/gulp-uglify": "^3.0.7",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^3.0.2"
+    "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -41,6 +42,6 @@
   },
   "homepage": "https://github.com/garethslinn/useful_functions#readme",
   "dependencies": {
-    "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz"
+    "grunt-contrib-uglify": "^5.0.1"
   }
 }

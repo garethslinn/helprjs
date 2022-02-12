@@ -1,16 +1,14 @@
-var gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
-    babel = require('gulp-babel');
-    concat = require('gulp-concat');
+const {src, dest, series, watch} = require('gulp');
+const ts = require('gulp-typescript');
+const uglify = require('gulp-uglify');
 
-gulp.task('default', function(){
-    gulp.src(['js/**/*.js', 'js/*.js'])
-        .pipe(concat('index.js'))
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist'));
-});
+function compileTs() {
+    return src('./js/**/*.ts')
+    .pipe(ts())
+    .pipe(uglify())
+    .pipe(dest('./dist'));
+}
 
-gulp.task('default');
+exports.default = function () {
+    watch( ['**/*.ts'], series(compileTs) );
+};

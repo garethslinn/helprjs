@@ -43,7 +43,6 @@
   },
   "homepage": "https://github.com/garethslinn/useful_functions#readme",
   "dependencies": {
-    "grunt-contrib-uglify": "^5.0.1",
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",

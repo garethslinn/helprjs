@@ -1,7 +1,7 @@
 {
   "name": "helprjs",
-  "version": "1.0.43",
-  "description": "array helper library",
+  "version": "1.0.44",
+  "description": "array adn object helper library",
   "main": "dist/index.js",
   "devDependencies": {
     "@babel/core": "^7.14.6",

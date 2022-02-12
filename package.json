@@ -14,7 +14,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "gulp-concat": "^2.6.1",
-    "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz"
+    "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^4.5.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -41,11 +45,5 @@
   "bugs": {
     "url": "https://github.com/garethslinn/useful_functions/issues"
   },
-  "homepage": "https://github.com/garethslinn/useful_functions#readme",
-  "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-typescript": "^6.0.0-alpha.1",
-    "gulp-uglify": "^3.0.2",
-    "typescript": "^4.5.5"
-  }
+  "homepage": "https://github.com/garethslinn/useful_functions#readme"
 }

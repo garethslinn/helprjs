@@ -1,6 +1,8 @@
 # helprjs
 
-This is an EASY TO USE collection of useful methods for manipulating object arrays with added helpers
+This is an EASY TO USE collection of useful methods for manipulating object arrays with added helpers.
+
+NOTE: I'm converting the library to TypeScript.
 
 ## Example array of objects
 

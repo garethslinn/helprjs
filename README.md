@@ -2,8 +2,6 @@
 
 This is an EASY TO USE collection of useful methods for manipulating object arrays with added helpers.
 
-NOTE: I'm converting the library to TypeScript.
-
 ## Example array of objects
 
 Most of the examples here make use of this people object.  

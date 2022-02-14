@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "downlevelIteration": true
+    "strict": true,
+    "downlevelIteration": true,
+    "--downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    
   }
 }

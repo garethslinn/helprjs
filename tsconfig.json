@@ -7,6 +7,5 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "removeComments": true,
-    
   }
 }

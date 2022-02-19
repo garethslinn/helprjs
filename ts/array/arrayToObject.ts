@@ -6,14 +6,13 @@
 // pass in an array of values and custom keys
 // Returns {firstName: 'Mike', lastName: 'Jones', age: 34, registered: true}
 
-const arrayToObject = ( values: [], keys: [] ) => {
+export const arrayToObject = ( values: [], keys: [] ) => {
     const obj: any = {};
 
     for (let i = 0; i < values.length; i++) {
         const key = (keys !== undefined) ? keys[i] : i;
         obj[key] = values[i];
     }
-
     return obj
 }
 

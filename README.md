@@ -84,6 +84,18 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
+#### **NEW** arrayToObject - [Demo]()
+```
+pass in an array of values
+Useage: arrayToObject(["Mike","Jones",34,true])
+Returns {0: 'Mike', 1: 'Jones', 2: 34, 3: true}
+
+pass in an array of values and custom keys
+Useage: arrayToObject(["Mike","Jones",34,true], ["firstName", "lastName","age","registered"])
+Returns {firstName: 'Mike', lastName: 'Jones', age: 34, registered: true}
+```
+
+
 #### addNewProperty - [Demo](https://codesandbox.io/s/addnewproperty-unbg66?file=/src/App.js)
 ```
 addNewProperty(people, 'registered', true)

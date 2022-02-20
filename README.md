@@ -84,10 +84,11 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
-#### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
+
+#### **NEW** objectArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
 ```
 pass in an object
-Useage: objectToArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
+Useage: objectArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
 Returns ['Mike', 'Jones', 34, true]
 ```
 #### **NEW** arrayToObject - [Demo](https://codesandbox.io/s/arraytoobject-r3lwcz?file=/src/App.js)
@@ -100,7 +101,6 @@ pass in an array of values and custom keys
 Useage: arrayToObject(["Mike","Jones",34,true], ["firstName", "lastName","age","registered"])
 Returns {firstName: 'Mike', lastName: 'Jones', age: 34, registered: true}
 ```
-
 
 #### addNewProperty - [Demo](https://codesandbox.io/s/addnewproperty-unbg66?file=/src/App.js)
 ```
@@ -248,6 +248,13 @@ returns object values with whitespace removed
 
 
 ## Array
+
+#### **NEW** concatArray - [Demo](https://codesandbox.io/s/concatarray-69w8ly?file=/src/App.js)
+```
+pass in an array of arrays
+Useage: concatArray([ [1,2],["three", "four"],[5],[6] ])
+Returns [1,2,"three","four",5,6]
+```
 
 #### populateArray - [Demo](https://codesandbox.io/s/populatearray-suvdi?file=/src/App.js)
 ```

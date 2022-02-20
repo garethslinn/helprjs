@@ -84,7 +84,7 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
-#### **NEW** objectToArray - [Demo]()
+#### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
 ```
 pass in an object
 Useage: objectToArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})

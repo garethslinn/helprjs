@@ -84,6 +84,12 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
+#### **NEW** objectToArray - [Demo]()
+```
+pass in an object
+Useage: objectToArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
+Returns ['Mike', 'Jones', 34, true]
+```
 #### **NEW** arrayToObject - [Demo](https://codesandbox.io/s/arraytoobject-r3lwcz?file=/src/App.js)
 ```
 pass in an array of values

@@ -1,6 +1,6 @@
 {
   "name": "helprjs",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "description": "array and object helper library",
   "main": "dist/index.js",
   "devDependencies": {

@@ -246,8 +246,19 @@ returns object values with whitespace removed
 ```
 
 
-
 ## Array
+
+#### **NEW** isEmptyArray
+```
+isEmptyArray([1,2]);
+false
+```
+
+#### **NEW** getAverage 
+```
+getAverage([1, 2, 3, 4, 4, 4]));
+3
+```
 
 #### **NEW** concatArray - [Demo](https://codesandbox.io/s/concatarray-69w8ly?file=/src/App.js)
 ```
@@ -255,7 +266,6 @@ pass in an array of arrays
 Useage: concatArray([ [1,2],["three", "four"],[5],[6] ])
 Returns [1,2,"three","four",5,6]
 ```
-
 #### populateArray - [Demo](https://codesandbox.io/s/populatearray-suvdi?file=/src/App.js)
 ```
 populateArray(0,20,4)
@@ -412,6 +422,15 @@ randomId();
 // Random ID generator
 // zxrm95d6ug
 ```
+
+## NEW String
+
+```
+capitalise('hello world')
+Returns 'Hello world'
+```
+
+
 
 ## Numerical 
 

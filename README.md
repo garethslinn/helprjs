@@ -85,10 +85,10 @@ Vailidation : returns only objects that meet the valid criteria
 ## General
 
 
-#### **NEW** objectArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
+#### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
 ```
 pass in an object
-Useage: objectArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
+Useage: objectToArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
 Returns ['Mike', 'Jones', 34, true]
 ```
 #### **NEW** arrayToObject - [Demo](https://codesandbox.io/s/arraytoobject-r3lwcz?file=/src/App.js)

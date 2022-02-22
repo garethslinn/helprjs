@@ -1,4 +1,4 @@
-import { objectToArray} from '../dist/index.js';
+import { objectToArray } from '../dist/index.js';
 
 describe('objectToArray', () => {
     test('is an array', () => {

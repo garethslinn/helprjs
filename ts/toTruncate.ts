@@ -6,3 +6,4 @@ export const toTruncate= (arr: [], key: string, len: number) => {
          })
     );
 }
+

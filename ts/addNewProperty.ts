@@ -1,6 +1,7 @@
 // addNewProperty(people, 'registered', true);
 
-export function addNewProperty(arr: any[], key: any, value: any) {
+export function addNewProperty(arr: [], key: string, value: any) {
     return arr.map((item: any) => Object.assign({}, {...item, [key]: value}));
 }
+
 

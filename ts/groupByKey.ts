@@ -3,9 +3,8 @@
 
 export function groupByKey(arr: [], key: string) {
     return arr
-        .reduce((hash, obj) => {
+        .reduce((hash: any, obj) => {
             if(obj[key] === undefined) return hash;
-            //@ts-ignore
             return Object.assign(hash, { [obj[key]]:( hash[obj[key]] || [] ).concat(obj)})
         }, {})
 }

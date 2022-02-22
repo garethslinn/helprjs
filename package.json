@@ -21,7 +21,8 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dist": "gulp"
   },
   "repository": {
     "type": "git",

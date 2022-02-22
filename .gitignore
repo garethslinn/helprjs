@@ -87,3 +87,6 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 @aolveramx
+
+package-lock.json
+yarn.lock

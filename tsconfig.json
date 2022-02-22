@@ -3,6 +3,7 @@
     "target": "es5",
     "strict": true,
     "downlevelIteration": true,
+    "--downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "removeComments": true,

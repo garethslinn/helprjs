@@ -1,6 +1,7 @@
 # helprjs
 
-This is an EASY TO USE collection of useful methods for manipulating object arrays with added helpers.
+A toolkit to help solve challenging tasks with object and arrays.
+Helprjs is fully documented with live Demos and its really simple to use!
 
 
 ## Most of the examples here make use of this people object.

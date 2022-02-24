@@ -110,7 +110,7 @@ groupByKey(people, 'firstName')
 ```
 
 mergeArrays(arr1,arr2,key); 
-returns a merged array without duplicated keys
+returns a single merged array
 
 ```
 

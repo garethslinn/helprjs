@@ -1,6 +1,6 @@
 {
   "name": "helprjs",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "description": "array and object helper library",
   "main": "dist/index.js",
   "devDependencies": {
@@ -18,7 +18,8 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",
     "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "jest": "^27.5.1"
   },
   "scripts": {
     "test": "jest",
@@ -46,8 +47,5 @@
   "bugs": {
     "url": "https://github.com/garethslinn/useful_functions/issues"
   },
-  "homepage": "https://github.com/garethslinn/useful_functions#readme",
-  "dependencies": {
-    "jest": "^27.5.1"
-  }
+  "homepage": "https://github.com/garethslinn/useful_functions#readme"
 }

@@ -12,7 +12,6 @@ const people1 = [
     { id: 6, firstName: "Paul", secondName: "Luck", age: "22", status: false }
   ];
 
-
 describe('mergeArrays ', () => {
     test('Arrays merged length is 6', () => {
         const result = mergeArrays(people1, people2, "firstName");

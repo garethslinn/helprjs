@@ -5,4 +5,3 @@ export function getOdd(arr: [], key: string) {
 }
 
 
-

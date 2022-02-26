@@ -28,7 +28,7 @@ describe('randomOrder', () => {
         arr2.push(item.count === index);
     })
 
-    const isTrue = (item) => item === true;
+    const isTrue = jest.fn(item => item === true);
 
     test('objects are in the same order', () => {
         expect(arr1.every(isTrue)).toBe(true);

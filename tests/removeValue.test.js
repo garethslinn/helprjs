@@ -1,13 +1,13 @@
 import { removeValue } from '../dist/index.js';
 
-describe('removeValue', () => {
+const arr = [
+    { a: 1, b: 1 },
+    { a: 1, b: 2 },
+    { a: 1, b: 3 },
+    { a: 1, b: 4 },
+]
 
-    const arr = [
-        { a: 1, b: 1 },
-        { a: 1, b: 2 },
-        { a: 1, b: 3 },
-        { a: 1, b: 4 },
-    ]
+describe('removeValue', () => {
 
     const result = removeValue(arr, 'b', 4);
 

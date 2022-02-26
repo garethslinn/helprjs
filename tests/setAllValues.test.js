@@ -1,13 +1,13 @@
 import { setAllValues } from '../dist/index.js';
 
-describe('setAllValues', () => {
+const arr = [
+    { a: 1, b: 1 },
+    { a: 1, b: 2 },
+    { a: 1, b: 3 },
+    { a: 1, b: 4 },
+]
 
-    const arr = [
-        { a: 1, b: 1 },
-        { a: 1, b: 2 },
-        { a: 1, b: 3 },
-        { a: 1, b: 4 },
-    ]
+describe('setAllValues', () => {
 
     const result = setAllValues(arr, 'b', 5);
 

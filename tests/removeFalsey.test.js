@@ -1,10 +1,10 @@
 import { removeFalsy } from '../dist/index.js';
 
-describe('removeFalsey', () => {
+const arr = [
+    { item: true },{ item: false },{ item: 0 },{ item: -0 },{ item: 1 },{ item: 0n },{ item: '' },{ item: null },{ item: undefined },
+]
 
-    const arr = [
-        { item: true },{ item: false },{ item: 0 },{ item: -0 },{ item: 1 },{ item: 0n },{ item: '' },{ item: null },{ item: undefined },
-    ]
+describe('removeFalsey', () => {
 
     const result = removeFalsy(arr, 'item').sort();
 
@@ -16,11 +16,13 @@ describe('removeFalsey', () => {
         expect(result.length).toBe(2);
     });
 
-    test('first item is true', () => {
+    test('first item is true and truthy', () => {
         expect(result[0].item).toBe(true);
+        expect(result[0].item).toBeTruthy();
     });
 
-    test('second item is 1', () => {
+    test('second item is 1 and truthy', () => {
         expect(result[1].item).toBe(1);
+        expect(result[1].item).toBeTruthy();
     });
 });

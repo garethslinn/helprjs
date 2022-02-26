@@ -1,7 +1,5 @@
 // toLower(people, 'firstname');
-export const toLower = (arr: [], key: string) => {
-    return arr.map((item: any) => ({
-            ...item, [key]: item[key].toLowerCase()
-        })
-    );
-}
+export const toLower = (arr: [], key: string) => arr.map((item: any) => ({
+        ...item, [key]: item[key].toLowerCase()
+    })
+)

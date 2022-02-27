@@ -40,6 +40,13 @@ Vailidation : returns only objects that meet the valid criteria
 ## General
 
 
+#### **NEW** deGroup - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
+```
+reverses a grouped object.
+deGroup(people, groupObject)
+returns 9 obects
+```
+
 #### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
 ```
 pass in an object

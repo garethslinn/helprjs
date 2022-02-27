@@ -15,17 +15,25 @@ describe('objectToArray', () => {
 		expect(!Array.isArray(result2) && result2 !== null).toBe(true);
 	});
 
-	test('result1 keys match values', () => {
-		expect(result1[0] === 'Mike').toBe(true);
-		expect(result1[1] === 'Jones').toBe(true);
-		expect(result1[2] === 34).toBe(true);
-		expect(result1[3] === true).toBe(true);
+	it('matches if the actual object does contain expected key: value pairs', () => {
+		expect(result1).toEqual(
+			expect.objectContaining({
+				0: 'Mike',
+				1: 'Jones',
+				2: 34,
+				3: true,
+			})
+		);
 	});
 
-	test('result2 keys match values', () => {
-		expect(result2.firstName === 'Mike').toBe(true);
-		expect(result2.lastName === 'Jones').toBe(true);
-		expect(result2.age === 34).toBe(true);
-		expect(result2.registered === true).toBe(true);
+	it('matches if the actual object does contain expected key: value pairs', () => {
+		expect(result2).toEqual(
+			expect.objectContaining({
+				firstName: 'Mike',
+				lastName: 'Jones',
+				age: 34,
+				registered: true,
+			})
+		);
 	});
 });

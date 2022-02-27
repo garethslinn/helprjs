@@ -9,6 +9,7 @@ describe('getValues', () => {
 		expect(result[1]).toBe(50);
 		expect(result[2]).toBe(51);
 	});
+
 	test('get 3 results', () => {
 		expect(result.length).toBe(3);
 	});

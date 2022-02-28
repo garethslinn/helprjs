@@ -240,12 +240,6 @@ uniqueArray(["one",1,1,2,3,"two","three","four","one","two"])
 // ["one", 1, 2, 3, "two", "three", "four"]
 ```
 
-#### intersectArrays - [Demo](https://codesandbox.io/s/intersectarrays-gzcf7?file=/src/App.js)
-```
-intersectArrays([0,1,2,3,4],[0,1,2,5,6])
-// [0,1,2]
-```
-
 #### emptyArray - [Demo](https://codesandbox.io/s/emptyarray-4hgb1?file=/src/App.js)
 ```
 emptyArray(["one","two","three","four"])

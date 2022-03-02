@@ -412,8 +412,11 @@ returns sum total
 
 #### getValidEmail 
 ```
-getValidEmail( [{ id: 1, email: 'badEmailDotgmail.com'  },{ id: 2, email: 'test@gmail.com'  }] ,'email');
-[{ email: 'test@gmail.com  }]
+getValidEmail( [
+    { id: 1, email: 'badEmailDotgmail.com'  },
+    { id: 2, email: 'test@validEmail.com'  },
+    { id: 3, email: 'test@badEmail' }
+],'email')
 returns only objects containing valid email addresses 
 ```
 

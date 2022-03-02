@@ -44,7 +44,7 @@ Vailidation : returns only objects that meet the valid criteria
 ```
 reverses a grouped object.
 deGroup(people, groupObject)
-returns 9 obects
+returns 9 objects
 ```
 
 #### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)

@@ -4,9 +4,9 @@ describe('getValidString', () => {
 	const result = getValidString(
 		[
 			{ id: 1, words: 'This is a test' },
-			{ id: 1, words: 'This is another test' },
-			{ id: 1, words: 'This is a test that has more words' },
-			{ id: 1, words: 'This is' },
+			{ id: 2, words: 'This is another test' },
+			{ id: 3, words: 'This is a test that has more words' },
+			{ id: 4, words: 'This is' },
 		],
 		'words',
 		1,

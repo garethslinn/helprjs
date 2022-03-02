@@ -362,15 +362,6 @@ typeOf(value);
 // typeOf({x: 1}); returns "object"
 ```
 
-#### uuid - [Demo](https://codesandbox.io/s/uuid-1j8jx?file=/src/App.js)
-```
-uuid();
-
-// Random uuid generator
-// uuid(); returns random id
-// e.g. 8ac16a9e-12fc-44fd-8311-952d212cbe02
-```
-
 #### randomId - [Demo](https://codesandbox.io/s/randomid-jgznb?file=/src/App.js)
 ```
 randomId();

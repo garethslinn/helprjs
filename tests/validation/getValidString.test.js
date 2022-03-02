@@ -19,7 +19,7 @@ describe('getValidString', () => {
 
 	it('matches if the actual object does contain expected array', () => {
 		expect(result).toEqual(
-			expect.arrayContaining([{ id: 1, words: 'This is' }])
+			expect.arrayContaining([{ id: 4, words: 'This is' }])
 		);
 	});
 });

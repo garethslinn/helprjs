@@ -40,20 +40,20 @@ Vailidation : returns only objects that meet the valid criteria
 ## General
 
 
-#### **NEW** deGroup - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
+####  deGroup - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
 ```
 reverses a grouped object.
 deGroup(people, groupObject)
 returns 9 objects
 ```
 
-#### **NEW** objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
+####  objectToArray - [Demo](https://codesandbox.io/s/objecttoarray-hmbbsg?file=/src/App.js)
 ```
 pass in an object
 Useage: objectToArray({firstName: 'Mike', lastName: 'Jones', age: 34, registered: true})
 Returns ['Mike', 'Jones', 34, true]
 ```
-#### **NEW** arrayToObject - [Demo](https://codesandbox.io/s/arraytoobject-r3lwcz?file=/src/App.js)
+####  arrayToObject - [Demo](https://codesandbox.io/s/arraytoobject-r3lwcz?file=/src/App.js)
 ```
 pass in an array of values
 Useage: arrayToObject(["Mike","Jones",34,true])
@@ -210,19 +210,19 @@ returns object values with whitespace removed
 
 ## Array
 
-#### **NEW** isEmptyArray
+####  isEmptyArray
 ```
 isEmptyArray([1,2]);
 false
 ```
 
-#### **NEW** getAverage 
+####  getAverage 
 ```
 getAverage([1, 2, 3, 4, 4, 4]));
 3
 ```
 
-#### **NEW** concatArray - [Demo](https://codesandbox.io/s/concatarray-69w8ly?file=/src/App.js)
+####  concatArray - [Demo](https://codesandbox.io/s/concatarray-69w8ly?file=/src/App.js)
 ```
 pass in an array of arrays
 Useage: concatArray([ [1,2],["three", "four"],[5],[6] ])
@@ -370,7 +370,7 @@ randomId();
 // zxrm95d6ug
 ```
 
-## NEW String
+## String
 
 ```
 capitalise('hello world')

@@ -39,7 +39,6 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
-
 ####  deGroup - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
 ```
 reverses a grouped object.

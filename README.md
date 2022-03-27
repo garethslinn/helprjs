@@ -4,6 +4,9 @@ A toolkit to help solve challenging tasks with object and arrays.
 Helprjs is fully documented with live Demos and its really simple to use!
 
 
+## Q&A: 
+Whilst helprjs is fully tested should you ecounter issues please report them.
+
 ## Most of the examples here make use of this people object.
 
 ```

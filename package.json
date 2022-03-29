@@ -1,7 +1,7 @@
 {
   "name": "helprjs",
-  "version": "1.0.61",
-  "description": "array and object helper library",
+  "version": "1.0.62",
+  "description": "Helprjs is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects",
   "main": "dist/index.js",
   "devDependencies": {
     "@babel/core": "^7.14.6",

@@ -42,6 +42,19 @@ Vailidation : returns only objects that meet the valid criteria
 
 ## General
 
+####  mergeArraysRemoveDuplicates - [Demo](https://codesandbox.io/p/sandbox/mergearraysremoveduplicates-zfv52x?file=%2Fsrc%2FApp.js)
+```
+merges two arrays and removes all duplicates
+Useage:
+
+const array1 = [{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }];
+const array2 = [{ id: 2, name: 'Bob' }, { id: 3, name: 'Charlie' }];
+
+const mergedArray = mergeArraysRemoveDuplicates(array1, array2);
+console.log(mergedArray);
+```
+
+
 ####  deGroup - [Demo](https://codesandbox.io/s/groupbyid-lv5mp?file=/src/App.js)
 ```
 reverses a grouped object.

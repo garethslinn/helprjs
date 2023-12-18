@@ -1,6 +1,6 @@
 {
   "name": "helprjs",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "Helprjs is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects",
   "main": "dist/index.js",
   "devDependencies": {

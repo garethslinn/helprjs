@@ -4,7 +4,7 @@
 // const mergedArray = mergeArraysRemoveDuplicates(array1, array2);
 // console.log(mergedArray);
 
-function mergeArraysRemoveDuplicates<T extends Record<string, unknown>>(arr1: T[], arr2: T[]): T[] {
+export function mergeArraysRemoveDuplicates<T extends Record<string, unknown>>(arr1: T[], arr2: T[]): T[] {
    const mergedArray: T[] = [...arr1, ...arr2];
    const uniqueObjects: Map<string, T> = new Map();
 

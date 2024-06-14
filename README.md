@@ -39,6 +39,27 @@ Numerical : uses numerical data
 
 Vailidation : returns only objects that meet the valid criteria
 
+## Latest
+
+####  maskSensitiveData
+```
+Masks sensitive data
+Useage:
+
+const people = [
+    { id: 1, firstName: 'John', secondName: 'Smith', age: '61', status: 1 },
+    { id: 2, firstName: 'John', secondName: 'West', age: '55', status: true },
+];
+
+const masked = maskSensitiveData(people, ['firstName', 'secondName']);
+
+Output: 
+[
+    { id: 1, firstName: '****', secondName: '*****', age: '61', status: 1 },
+    { id: 2, firstName: '****', secondName: '****', age: '55', status: true },
+]
+```
+
 
 ## General
 

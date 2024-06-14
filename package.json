@@ -1,6 +1,6 @@
 {
   "name": "helprjs",
-  "version": "1.0.66",
+  "version": "1.0.68",
   "description": "Helprjs is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects",
   "main": "dist/index.js",
   "devDependencies": {
@@ -17,9 +17,9 @@
     "gulp-concat": "^2.6.1",
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",
+    "jest": "^27.5.1",
     "tls-test": "https://tls-test.npmjs.com/tls-test-1.0.0.tgz",
-    "typescript": "^4.5.5",
-    "jest": "^27.5.1"
+    "typescript": "^4.5.5"
   },
   "scripts": {
     "test": "jest --collect-coverage",
